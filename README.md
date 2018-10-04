@@ -6,7 +6,7 @@ by *[Louis Lettry](mailto:lettryl@vision.ee.ethz.ch), [Kenneth Vanhoey](https://
 
 in Computer Graphics Forum, vol. 37, no. 10 (Proceedings of [Pacific Graphics 2018](http://sweb.cityu.edu.hk/pg2018/)).
 
-Paper available on [kvanhoey.eu](http://kenneth.vanhoey.free.fr/index.php?page=research&lang=en#LVvG18b)
+Paper available on [kvanhoey.eu](http://kenneth.vanhoey.free.fr/index.php?page=research&lang=en#LVvG18b) and [ArXiv](https://arxiv.org/abs/1803.00805).
 
 # Citation
 Please cite our paper if you use, compare to, or get inspired by this code and/or work.
