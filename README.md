@@ -43,7 +43,7 @@ git clone git@git.ee.ethz.ch:lettryl/UnsupervisedIntrinsicDecomposition.git
 ```
 cd UnsupervisedIntrinsicDecomposition/
 ```
-3. (Optional) place the files you want to process in the folder input/
+3. (Optional) place the files you want to process in the folder *input/*
 4. Run the application
 ```
 python main.py
