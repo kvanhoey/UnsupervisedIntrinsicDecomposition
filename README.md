@@ -40,7 +40,7 @@ The folder *model/* contains the pre-trained CNN definition and weights.
 git clone git@git.ee.ethz.ch:lettryl/UnsupervisedIntrinsicDecomposition.git
 ```
 2. Enter the repository folder
-```bash
+```
 cd UnsupervisedIntrinsicDecomposition/
 ```
 3. (Optional) place the files you want to process in the folder input/
