@@ -34,17 +34,26 @@ An example file is given in the folder *input/*
 Global parameters at the top of *main.py* allow to edit location of input and result folders.
 The folder *model/* contains the pre-trained CNN definition and weights.
 
-# Installation & Dependencies
-'''
+# Installation & Usage
+1. Clone this repository
+```
 git clone git@git.ee.ethz.ch:lettryl/UnsupervisedIntrinsicDecomposition.git
+```
+2. Enter the repository folder
+```bash
 cd UnsupervisedIntrinsicDecomposition/
+```
+3. (Optional) place the files you want to process in the folder input/
+4. Run the application
+```
 python main.py
-'''
+```
 
+# Dependencies
 Tested on Linux Ubuntu 18.04.
 Should probably work on other systems with minor effort.
 
-Dependencies:
+Depends on:
 * Python (developed on 2.7, compatible with Python3)
 * Tensorflow (developed on v1.2.0)
 * Python libraries: NumPy, PIL.
