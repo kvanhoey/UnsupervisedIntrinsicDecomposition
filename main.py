@@ -21,14 +21,25 @@ if not os.path.exists(dir_out): # Create output dir
     os.makedirs(dir_out)
 
 import numpy as np
-from imageio import imread, imwrite
+
+from PIL import Image
 
 import tensorflow as tf
 tf.reset_default_graph()    #   Clear tensorflow <-- specially useful when running in permanent environment
+
 from net_model import make_net
 
-
 ### Utility functions ###
+#   image reading function
+def imread(path):
+    img = Image.open(path)
+    return np.array(img)
+
+#   image writing function
+def imwrite(path, img):
+    img = Image.fromarray(img)
+    img.save(path)
+
 #   Util to convert image to the CNN format
 def CNNify(img):
     img = img.astype(dtype=np.float) / 255.
@@ -41,7 +52,7 @@ def unCNNify(img):
 
     return np.clip(img*255., 0, 255).astype(dtype=np.uint8)
 
-### Main folder ###
+### Main ###
 if __name__ == "__main__":
     input_size = (None, None) #   Can be set to (320, 240) to use training dimensions
     input_img = tf.placeholder(tf.float32,shape=(1, input_size[0], input_size[1], 3), name = "I")
