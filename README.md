@@ -31,7 +31,7 @@ The folder model/ contains the pre-trained CNN definition and weights.
 # Installation & Dependencies
 Tested on Linux Ubuntu 18.04.
 Should probably work on other systems with minor effort.
-* Tensorflow (MINIMAL VERSION) ?
+* Tensorflow (developed on v 1.2.0)
 * Python libraries: NumPy, PIL.
 
 
