@@ -1,8 +1,8 @@
 Code for executing the Single-Image Intrinsic Decomposition algorithm presented in the paper:
 
-'Unsupervised Deep Single-Image Intrinsic Decomposition using Illumination-Varying Image Sequences'
+**Unsupervised Deep Single-Image Intrinsic Decomposition using Illumination-Varying Image Sequences**
 
-by Louis Lettry (lettryl@vision.ee.ethz.ch), Kenneth Vanhoey (kenneth@research.kvanhoey.eu) and Luc Van Gool
+by *[Louis Lettry](mailto:lettryl@vision.ee.ethz.ch), [Kenneth Vanhoey](https://www.kvanhoey.eu)* and *Luc Van Gool*
 
 in Computer Graphics Forum, vol. 37, no. 10 (Proceedings of Pacific Graphics 2018).
 
@@ -32,6 +32,6 @@ The folder model/ contains the pre-trained CNN definition and weights.
 Tested on Linux Ubuntu 18.04.
 Should probably work on other systems with minor effort.
 * Tensorflow (MINIMAL VERSION) ?
-* Python libraries: NumPy, ImageIO (depends on PILlow).
+* Python libraries: NumPy, PIL.
 
 
